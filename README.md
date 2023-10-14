@@ -1,5 +1,5 @@
 # Toast Notification :bulb: 
-- Create A Toast Notification in HTML CSS &amp; `JavaScript`.
+- Create A Toast Notification in HTML, CSS, and `JavaScript`.
 
 - Users can click on the particular button like `success`, `error`, `warning`, or `info`, and the relevant toast notification will show in the top right corner. 
 
