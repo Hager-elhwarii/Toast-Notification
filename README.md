@@ -9,7 +9,7 @@
 ![image](https://github.com/Hager-elhwarii/Toast-Notification/assets/80959882/902c6c9b-544f-45cc-8c4d-abcb04638c54)
 
 ## 🚀 Deployment
- - [Demo Link](https://toast-notification-dottie.netlify.app/#)    
+ - [Toast Notification Demo Link](https://toast-notification-dottie.netlify.app/#)    
      
 ## 💻 Tech stack
 - Html
