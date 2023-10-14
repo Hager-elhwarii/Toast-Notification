@@ -1,13 +1,12 @@
 # Toast Notification :bulb:
 <a name="readme-top"></a>
-- Create A Toast Notification in HTML, CSS, and `JavaScript`.
-
-## :camera_flash: Demo GIF
-![Toast Notification](https://github.com/Hager-elhwarii/Toast-Notification/assets/80959882/629f5652-a88f-4c91-ad07-e358eaf2c036)
-
 ## 🌸 About this Repo
-- Users can click on the particular button like `success`, `error`, `warning`, or `info`, and the relevant toast notification will show in the top right corner. 
-- Each toast will be removed automatically after 5 seconds, or users can also hide it by clicking on the close icon. To make the toast more attractive, I've also added a progress line on the bottom of each toast.
+- A Toast Notification in HTML, CSS, and `JavaScript`. Users can click on the particular button like `success`, `error`, `warning`, or `info`, and the relevant toast notification will show in the top right 
+ corner. 
+- Each toast will be removed automatically after `5 seconds`, or users can also hide it by clicking on the close icon. To make the toast more attractive, I've also added a progress line on the bottom of each toast.
+
+## :camera_flash: Demo Screenshoot
+![Toast Notification](https://github.com/Hager-elhwarii/Toast-Notification/assets/80959882/629f5652-a88f-4c91-ad07-e358eaf2c036)
 
 ## 🚀 Deployment
  - [Demo Link](https://toast-notification-dottie.netlify.app/#)    
