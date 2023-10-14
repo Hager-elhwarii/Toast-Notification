@@ -30,7 +30,7 @@ https://github.com/Hager-elhwarii/Toast-Notification.git
 
 
 ## 🦄   Author
-If you want to get in-touch with me you can reach me at:
+> If you want to get in-touch with me you can reach me at:
 -  [Email](http://hager.a.elhawary@gmail.com/)
 -  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
 -  [GitHub](https://github.com/Hager-elhwarii)
