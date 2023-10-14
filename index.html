@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=
+      content="width=device-width
     , initial-scale=1.0"
     />
     <title>Toast Notification</title>
@@ -21,68 +21,39 @@
 
     <!-- Iconify Icon Link -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- Script File Link -->
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
-      <ul class="notification">
-        <li class="toast success">
-          <div class="column">
-            <iconify-icon icon="ep:success-filled"></iconify-icon>
-            <span>success: You can access all files.</span>
-          </div>
-          <iconify-icon icon="mdi:remove"></iconify-icon>
-        </li>
-        <li class="toast error">
-          <div class="column">
-            <iconify-icon icon="clarity:remove-solid"></iconify-icon>
-            <span>error: Sorry, you're not authorized.</span>
-          </div>
-          <iconify-icon icon="mdi:remove"></iconify-icon>
-        </li>
-        <li class="toast warning">
-          <div class="column">
-            <iconify-icon icon="ph:warning-fill"></iconify-icon>
-            <span>warning: User has to be admin.</span>
-          </div>
-          <iconify-icon icon="mdi:remove"></iconify-icon>
-        </li>
-        <li class="toast info">
-          <div class="column">
-            <iconify-icon icon="akar-icons:info-fill"></iconify-icon>
-            <span>info: New settings available.</span>
-          </div>
-          <iconify-icon icon="mdi:remove"></iconify-icon>
-        </li>
-      </ul>
+      <ul class="notification"></ul>
       <div class="buttons">
-        <button class="btn" id="success-btn">
+        <button class="btn" id="success">
           <a href="#">
             <iconify-icon icon="mdi:success-circle-outline"></iconify-icon>
             <span>success</span>
           </a>
         </button>
-        <button class="btn" id="error-btn">
+        <button class="btn" id="error">
           <a href="#">
             <iconify-icon icon="clarity:remove-line"></iconify-icon>
             <span>error</span>
           </a>
         </button>
-        <button class="btn" id="warning-btn">
+        <button class="btn" id="warning">
           <a href="#">
             <iconify-icon icon="typcn:warning-outline"></iconify-icon>
             <span>warning</span>
           </a>
         </button>
-        <button class="btn" id="info-btn">
+        <button class="btn" id="info">
           <a href="#">
             <iconify-icon icon="gg:info"></iconify-icon>
-          <span>info</span>
+            <span>info</span>
           </a>
-          
         </button>
       </div>
     </div>
-    <!-- Script File Link -->
-    <script src="script.js"></script>
   </body>
 </html>

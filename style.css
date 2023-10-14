@@ -95,20 +95,20 @@ body {
   }
 } */
 .notification .toast.success::after,
-#success-btn {
+#success {
   background-color: var(--primary-green);
 }
 
 .notification .toast.error::after,
-#error-btn {
+#error {
   background-color: var(--primary-red);
 }
 .notification .toast.warning::after,
-#warning-btn {
+#warning {
   background-color: var(--primary-yellow);
 }
 .notification .toast.info::after,
-#info-btn {
+#info {
   background-color: var(--primary-blue);
 }
 
