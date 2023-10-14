@@ -64,9 +64,9 @@ body {
   padding: 1.8rem 2rem;
   border-radius: 0.4rem;
   overflow: hidden;
-  /* animation: show_toast 0.3s ease forwards; */
+  animation: show_toast 0.3s ease forwards;
 }
-/* @keyframes show_toast{
+@keyframes show_toast {
   0% {
     transform: translateX(100%);
   }
@@ -79,7 +79,24 @@ body {
   100% {
     transform: translateX(-10px);
   }
-} */
+}
+.notification .toast.hide {
+  animation: hide_toast 0.3s ease forwards;
+}
+@keyframes hide_toast {
+  0% {
+    transform: translateX(-10%);
+  }
+  40% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(calc(100% + 2.6rem));
+  }
+}
 .notification .toast::after {
   content: "";
   height: 3.4px;
@@ -87,13 +104,13 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  /* animation: progress 5s linear forwards; */
+  animation: progress 5s linear forwards;
 }
-/* @keyframes progress {
+@keyframes progress {
   100% {
     width: 0%;
   }
-} */
+}
 .notification .toast.success::after,
 #success {
   background-color: var(--primary-green);
@@ -131,6 +148,7 @@ body {
   font-size: 1.7rem;
   cursor: pointer;
   transition: all 0.3s;
+  padding: 1rem;
 }
 .notification .toast iconify-icon:last-child:hover {
   color: var(--primary-dark-gray);
