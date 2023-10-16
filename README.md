@@ -9,7 +9,7 @@
 ![image](https://github.com/Hager-elhwarii/Toast-Notification/assets/80959882/902c6c9b-544f-45cc-8c4d-abcb04638c54)
 
 ## 🚀 Deployment
- - [Toast Notification](https://toast-notification-dottie.netlify.app/#)    
+ - [Toast Notification](https://toast-notification-dottie.netlify.app/)    
      
 ## 💻 Tech stack
 - Html
@@ -19,7 +19,7 @@
 ##  🔐 Run locally 
 
 ```bash
-https://github.com/Hager-elhwarii/Toast-Notification.git
+git clone https://github.com/Hager-elhwarii/Toast-Notification.git
 ```
 
 ## 📌 Acknowledgments
@@ -31,6 +31,7 @@ https://github.com/Hager-elhwarii/Toast-Notification.git
 
 ## 🦄   Author
 > If you want to get in-touch with me you can reach me at:
+
 -  [Email](http://hager.a.elhawary@gmail.com/)
 -  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
 -  [GitHub](https://github.com/Hager-elhwarii)
